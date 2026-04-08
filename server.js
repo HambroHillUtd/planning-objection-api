@@ -14,7 +14,7 @@ app.post("/generate", async (req, res) => {
     const { ref, address, postcode, objections } = req.body;
 
     const prompt = `
-You are a UK planning expert.
+You are a concerned resident but speak like a planning expert.
 
 Write a formal objection letter.
 
